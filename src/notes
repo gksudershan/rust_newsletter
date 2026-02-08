@@ -1,0 +1,2 @@
+git fetch origin - updates branches, commits, tags everything but the local branch
+git pull origin - fetch + apply on to your local branch
