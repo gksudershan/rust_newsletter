@@ -1,2 +1,13 @@
 git fetch origin - updates branches, commits, tags everything but the local branch
 git pull origin - fetch + apply on to your local branch
+
+"A user registers with the newsletter service" is a subscription model wherein they get to read stuff, get updates... nothing else.
+So in that case an authentication system is not required for the user but rather the author of the service
+
+Rendered basic html form using rocket templates.. which required importing rocket_dyn_templates crate, attach fairing and then rendering using Template::render
+
+Also learnt that the browser parses html and builds a DOM tree first (which is like identifying all the tags, ids, etc.,)
+and then resolving which ids and tags are what.. the browser doesn't process line by line but rather reads the whole html and
+then starts processing
+
+created a sqlite db which is an in disk memory db.. next step is to figure out how to get rocket talking to the db
